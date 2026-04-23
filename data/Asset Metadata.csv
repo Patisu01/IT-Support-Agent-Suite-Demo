@@ -1,0 +1,57 @@
+Store_ID,Asset_Type,Model,Status
+SW-0001,POS,Oracle MICROS Workstation 6,Decommissioned
+SW-0001,POS,NCR P1535,Maintenance
+SW-0001,POS,Toshiba TCx 800,Decommissioned
+SW-0001,KDS,Logic Controls LS8000,Active
+SW-0001,KDS,QSR Automations ConnectSmart,Maintenance
+SW-0001,Server,Dell PowerEdge T150,Maintenance
+SW-0002,POS,Toshiba TCx 800,Active
+SW-0002,POS,Toshiba TCx 800,Decommissioned
+SW-0002,POS,Toshiba TCx 800,Active
+SW-0002,KDS,Logic Controls LS8000,In Repair
+SW-0002,KDS,QSR Automations ConnectSmart,Decommissioned
+SW-0002,Server,Dell PowerEdge T150,In Repair
+SW-0003,POS,Toshiba TCx 800,Maintenance
+SW-0003,POS,NCR P1535,Active
+SW-0003,POS,NCR P1535,In Repair
+SW-0003,KDS,Bematech LS6100,Maintenance
+SW-0003,Server,HPE ProLiant MicroServer Gen10 Plus,Active
+SW-0004,POS,NCR P1535,In Repair
+SW-0004,POS,Toshiba TCx 800,In Repair
+SW-0004,KDS,QSR Automations ConnectSmart,Maintenance
+SW-0004,Server,HPE ProLiant MicroServer Gen10 Plus,In Repair
+SW-0005,POS,HP Engage One,Maintenance
+SW-0005,POS,Toshiba TCx 800,Active
+SW-0005,POS,HP Engage One,Decommissioned
+SW-0005,POS,Toshiba TCx 800,Maintenance
+SW-0005,KDS,Logic Controls LS8000,Decommissioned
+SW-0005,Server,Lenovo ThinkSystem ST50,Decommissioned
+SW-0006,POS,Toshiba TCx 800,In Repair
+SW-0006,POS,Oracle MICROS Workstation 6,Maintenance
+SW-0006,KDS,QSR Automations ConnectSmart,Maintenance
+SW-0006,KDS,Logic Controls LS8000,Maintenance
+SW-0006,Server,Dell PowerEdge T150,Decommissioned
+SW-0007,POS,Toshiba TCx 800,Active
+SW-0007,POS,Toshiba TCx 800,Active
+SW-0007,POS,NCR P1535,Maintenance
+SW-0007,KDS,QSR Automations ConnectSmart,In Repair
+SW-0007,KDS,QSR Automations ConnectSmart,In Repair
+SW-0007,Server,HPE ProLiant MicroServer Gen10 Plus,In Repair
+SW-0008,POS,HP Engage One,Decommissioned
+SW-0008,POS,NCR P1535,In Repair
+SW-0008,POS,Toshiba TCx 800,Maintenance
+SW-0008,POS,Oracle MICROS Workstation 6,Decommissioned
+SW-0008,KDS,QSR Automations ConnectSmart,In Repair
+SW-0008,Server,HPE ProLiant MicroServer Gen10 Plus,In Repair
+SW-0009,POS,Toshiba TCx 800,In Repair
+SW-0009,POS,Oracle MICROS Workstation 6,In Repair
+SW-0009,POS,HP Engage One,Maintenance
+SW-0009,POS,Toshiba TCx 800,Active
+SW-0009,KDS,QSR Automations ConnectSmart,Active
+SW-0009,Server,HPE ProLiant MicroServer Gen10 Plus,In Repair
+SW-0010,POS,NCR P1535,Decommissioned
+SW-0010,POS,Toshiba TCx 800,Decommissioned
+SW-0010,POS,Oracle MICROS Workstation 6,In Repair
+SW-0010,POS,Toshiba TCx 800,Decommissioned
+SW-0010,KDS,Bematech LS6100,Maintenance
+SW-0010,Server,Lenovo ThinkSystem ST50,Maintenance

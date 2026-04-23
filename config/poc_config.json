@@ -1,0 +1,31 @@
+{
+  "asset_csv": "data\\Asset Metadata.csv",
+  "itsm_xlsx": "data\\ITSM Log.csv.xlsx",
+  "sop_docx": "data\\Standard Operating Procedure_POS Restart Sequence.docx",
+  "store_alias_map": {
+    "Store_042": "SW-0004",
+    "Store_088": "SW-0008",
+    "Store_015": "SW-0001",
+    "Store_001": "SW-0001"
+  },
+  "model_family_map": {
+    "NCR P1535": "Brand A / NCR family",
+    "Toshiba TCx 800": "Brand B / Toshiba family",
+    "Oracle MICROS Workstation 6": "Brand C / Oracle MICROS family",
+    "HP Engage One": "Brand D / HP Engage family"
+  },
+  "heartbeat_defaults": {
+    "Store_042": "Offline",
+    "Store_088": "Offline",
+    "Store_015": "Online",
+    "Store_001": "Online"
+  },
+  "demo_ticket": {
+    "ticket_id": "POC-INC-405",
+    "store_code": "Store_042",
+    "location_label": "Store_042 (Northside)",
+    "issue": "POS Offline",
+    "priority": "Critical",
+    "description": "POS is down at Store #042. Registers are unavailable for checkout."
+  }
+}
