@@ -42,7 +42,7 @@ The embedding model is downloaded once and cached locally beside the SOP source 
 Use the bundled Python runtime:
 
 ```powershell
-& "C:\Users\Administrator\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" .\src\pos_agent_poc.py
+& "C:\Users\Administrator\AppData\Local\Python\pythoncore-3.14-64\python.exe" .\src\pos_agent_poc.py
 ```
 
 The script writes:
