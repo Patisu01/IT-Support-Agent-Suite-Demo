@@ -9,13 +9,21 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List
 
-import openpyxl
-from docx import Document
-from langchain_community.vectorstores import FAISS
-from langchain_core.documents import Document as LangChainDocument
-from langchain_core.embeddings import Embeddings
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-from sentence_transformers import SentenceTransformer
+try:
+    import openpyxl
+    from docx import Document
+    from langchain_community.vectorstores import FAISS
+    from langchain_core.documents import Document as LangChainDocument
+    from langchain_core.embeddings import Embeddings
+    from langchain_text_splitters import RecursiveCharacterTextSplitter
+    from sentence_transformers import SentenceTransformer
+except ModuleNotFoundError as exc:
+    missing_package = exc.name or "a required package"
+    raise ModuleNotFoundError(
+        f"Missing dependency: {missing_package}. Install this project's Python packages with "
+        "'python -m pip install -r requirements.txt' from the repository root, or run the script "
+        "with the bundled runtime documented in README.md."
+    ) from exc
 
 
 def load_config(config_path: Path) -> dict:

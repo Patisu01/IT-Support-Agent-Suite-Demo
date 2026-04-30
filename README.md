@@ -28,7 +28,7 @@ To keep the POC runnable and transparent, the project adds:
 - a local `model_family_map` to infer a provider family from POS model names
 - a LangChain retrieval layer built with `RecursiveCharacterTextSplitter`, `FAISS`, and the `sentence-transformers/all-MiniLM-L6-v2` embedding model cached locally for stronger semantic search
 
-The embedding model is downloaded once and cached locally beside the SOP source so repeat demo runs stay fast and self-contained.
+The embedding model is downloaded once and cached locally under `artifacts\model_cache` so repeat demo runs stay fast and self-contained.
 
 ## Project layout
 
@@ -39,10 +39,16 @@ The embedding model is downloaded once and cached locally beside the SOP source 
 
 ## Run
 
+First install the Python dependencies if you are using your own Python environment:
+
+```powershell
+python -m pip install -r .\requirements.txt
+```
+
 Use the bundled Python runtime:
 
 ```powershell
-& "C:\Users\Administrator\AppData\Local\Python\pythoncore-3.14-64\python.exe" .\src\pos_agent_poc.py
+& "C:\Users\Administrator\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" .\src\pos_agent_poc.py
 ```
 
 The script writes:
